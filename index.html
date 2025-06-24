@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <img src="./images/logo.png" alt="Bariks Logo" class="logo" />
+                <ul class="nav-links">
+                    <li><a href="#">Hyperbaric Medicine</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Bariks +</a></li>
+                    <li><a href="#">About +</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div class="nav-right">
+                <a href="#" class="view-demo">View Demo</a>
+                <button class="get-started">Get Started</button>
+                <button class="font-toggle">AA ▼</button>
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            </div>
+        </nav>
+
+    </header>
+    <!-- <ul class="mobile-menu" id="mobileMenu">
+        <li><a href="#">Hyperbaric Medicine</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Bariks</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul> -->
+
+    <main class="main-section">
+        <!-- hero section -->
+        <section class="hero-section">
+            <div class="hero-left">
+                <img class="logo-left" src="./images/logo1.png" alt="">
+            </div>
+            <div class="hero-center">
+                <div class="hero-text-wrapper">
+                    <h4>
+                        <div class="star">&#10023;</div>Modern and Scaleble<div class="star">&#10023;</div>
+                    </h4>
+                    <h3>The 1st and only portable </h3>
+                    <h1 class="gradient-text">
+                        HYPERBARIC OXYGEN <br>THERAPY CHAMBER
+                    </h1>
+                    <h5>that reaches working pressure of 3 atmosphere</h5>
+                    <div></div>
+                    <div id="center-button">
+                        <button id="get-started-center">Get Started</button>
+                        <button id="view-demo">View Demo</button>
+                    </div>
+                </div>
+                <!-- <div class="hero-center-img">this is img</div> -->
+                <div class="hero-img"><img class="hero-center-img" src="./images/main-Photoroom.png" alt=""></div>
+            </div>
+            <div class="hero-right"><img class="logo-right" src="./images/logo2.svg" alt=""></div>
+
+            <img class="cirlcle-img" src="./images/cirlcle-img.svg" alt="">
+            <img class="collab-img" src="./images/collab-img.svg" alt="">
+
+        </section>
+        <!-- important section -->
+        <section class="important">
+
+            <!-- <div class="bar">|</div> -->
+            <ul>
+                <h3>
+                    <div class="dot">&#8226;</div>Important <div class="seprator">&#124;</div>
+                </h3>
+                <li>
+                    <div class="star-important">&#10023;</div>Portable, foldable and very light
+                </li>
+                <li>
+                    <div class="star-important">&#10023;</div>Online software management
+                </li>
+                <li>
+                    <div class="star-important">&#10023;</div>Reaches up to 3 ATA
+                </li>
+                <li>
+                    <div class="star-important">&#10023;</div>Comfortable sitting lying down
+                </li>
+                <li>
+                    <div class="star-important">&#10023;</div>Stimulates Immune System
+                </li>
+                <li>
+                    <div class="star-important">&#10023;</div>3 Atmosphere
+                </li>
+
+            </ul>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about">
+            <div class="about-left">
+                <h3>
+                    <span>&#10023;</span>ABOUT Bariks
+                </h3>
+                <h1>Hyperbaric Oxygen <br>Therapy (HBOT)</h1>
+                <p>Bariks is revolutionizing Hyperbaric Oxygen Therapy (HBOT) with a portable, foldable oxygen pressure
+                    chamber,
+                    making life-saving treatments accessible worldwide. The company aims to provide HBOT treatments
+                    anywhere,
+                    with the potential to save lives and significantly enhance quality of life. <br>
+                    <br>
+                    By combining portability with advanced functionality, our innovative technology minimizes the size
+                    of
+                    all
+                    components, including a unique software system, resulting in a fully self-contained product. This
+                    breakthrough offers unmatched versatility, allowing patients, athletes, and anyone in need to
+                    undergo
+                    therapy with maximum comfort, wherever they may be.
+                </p>
+                <button class="explore" id="about-explore">Explore More<img src="./images/enter-svg.svg"
+                        alt="enter"></button>
+
+            </div>
+            <div class="about-right">
+                <img src="./images/about-img1.png" alt="">
+            </div>
+        </section>
+
+        <!-- smart fast section -->
+
+        <section class="smart-fast">
+            <div class="smart-fast-wrapper">
+                <h4><span>&#10023;</span> SMART - FAST <span>&#10023;</span></h4>
+                <h1>There are 3 Key Areas where <br>HBOT can Really make a Difference</h1>
+            </div>
+            <div class="smart-cards">
+                <div class="cards"><img src="./images/yoga1.svg" alt="Injury & Performance Yoga">
+                    <h3>INJURY & PERFORMANCE</h3>
+                    <p>Hyperbaric Oxygen Therapy for sports injuries. Helping your clients with recovery, repair and
+                        strengthening.</p>
+                    <button class="smart-fast-explore">Explore More <img src="./images/enter-svg.svg"
+                            alt="enter"></button>
+                </div>
+                <div class="cards">
+                    <img src="./images/yoga2.svg" alt="Health & Wellbeing Yoga">
+                    <h3>HEALTH & WELLBEING</h3>
+                    <p>Allowing your clients to breathe new life <br>into their bodies, repairing unseen <br>damage.</p>
+                    <button class="smart-fast-explore">Explore More </button>
+
+                </div>
+                <div class="cards">
+                    <img src="./images/yoga3.svg" alt="Ageing & Beauty Yoga">
+                    <h3>AGEING & BEAUTY</h3>
+                    <p>Improving your client's skin elasticity and condition - repairing damaged skin (acne, eczema,
+                        psoriasis, rosacea and wrinkles).</p>
+                    <button class="smart-fast-explore">Explore More <img src="./images/enter-svg.svg"
+                            alt="enter"></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCT SECTION  -->
+
+        <section class="product-section">
+            <div class="product-container">
+                <!-- Left Text Content -->
+                <div class="product-content">
+                    <h4> <span>&#10023;</span>BARIKS PRODUCT</h4>
+                    <h1 class="gradient-text">BARIKS 201</h1>
+                    <p>
+                        Portable Hyperbaric Oxygen chamber with disruptive Technology that
+                        reaches working pressure of 3 ATA
+                    </p>
+                    <div class="button-wrapper">
+                        <button class="primary-btn">Get Started</button>
+                        <button class="secondary-btn">View Demo</button>
+                    </div>
+                </div>
+
+                <!-- Right Image -->
+                <div class="product-image">
+                    <img src="./images/product-img.png" alt="Bariks 201" />
+                </div>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="features-grid">
+                <div class="feature-box no-border">
+                    <img src="./images/product-1.png" alt="Icon 1" />
+                    <p>Portable, foldable<br />and very light</p>
+                </div>
+                <div class="feature-box">
+                    <img src="./images/product-2.png" alt="Icon 2" />
+                    <p>Save time, get<br />treated at your own home</p>
+                </div>
+                <div class="feature-box">
+                    <img src="./images/product-3.png" alt="Icon 3" />
+                    <p>Online software<br />management</p>
+                </div>
+                <div class="feature-box">
+                    <img src="./images/product-4.png" alt="Icon 4" />
+                    <p>Efficiently foldable<br />and space-saving</p>
+                </div>
+                <div class="feature-box">
+                    <img src="./images/product-5.png" alt="Icon 5" />
+                    <p>Personalized<br />treatment</p>
+                </div>
+                <div class="feature-box">
+                    <img src="./images/product-6.png" alt="Icon 6" />
+                    <p>Reaches up<br />to 3 ATA</p>
+                </div>
+                <div class="feature-box">
+                    <img src="./images/product-7.png" alt="Icon 7" />
+                    <p>Comfortable<br />sitting lying down</p>
+                </div>
+            </div>
+        </section>
+        <!-- bg-section -->
+        <section class="bg">
+            <h1>Bariks makes Hyperbaric <br>
+                Oxygen Therapy (HBOT) <br>
+                Accessible to Humanity</h1>
+        </section>
+        <!-- SYSTEM-SECTION  -->
+        <section class="system">
+            <div class="left">
+                <h4><span>&#10023;</span>Bariks System</h4>
+                <h1>Bariks Online Management</h1>
+                <p>Portable Hyperbaric Oxygen chamber with disruptive Technology that reaches working pressure of 3 ATA
+                </p>
+            </div>
+            <div class="right">
+                <div class="grid-container">
+                    <div class="system-card">
+                        <div class="card-top">
+                            <img src="./images/system-card-img1.png" alt="">
+                            <h4>Appointment System</h4>
+                        </div>
+                        <p>You will be able to assign appointments for consultations and hyperbaric chamber sessions
+                            online.</p>
+                    </div>
+                    <div class="system-card">
+                        <div class="card-top">
+                            <img src="./images/system-card-img2.png" alt="">
+                            <h4>CRM for patients</h4>
+                        </div>
+                        <p>You will keep organized and efficient control of the patient process for scheduling a
+                            consultation or session.</p>
+                    </div>
+                    <div class="system-card">
+                        <div class="card-top">
+                            <img src="./images/system-card-img3.png" alt="">
+                            <h4>Telemedicine</h4>
+                        </div>
+                        <p>You will be able to assign telemedicine appointments to call your patients and advise them
+                            from a distance.</p>
+                    </div>
+                    <div class="system-card">
+                        <div class="card-top">
+                            <img src="./images/system-card-img4.png" alt="">
+                            <h4>Hipermed</h4>
+                        </div>
+                        <p>Statistics of the episodes treated in all the centers of the network.</p>
+                    </div>
+                    <div class="system-card">
+                        <div class="card-top">
+                            <img src="./images/system-card-img5.png" alt="">
+                            <h4>Training</h4>
+                        </div>
+                        <p>Medical, commercial, technical and scientific training.</p>
+                    </div>
+                    <div class="system-card">
+                        <div class="card-top">
+                            <img src="./images/system-card-img6.png" alt="">
+                            <h4>Monitoring</h4>
+                        </div>
+                        <p>Real-time monitoring system for Revitalair® hyperbaric chambers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- why-section -->
+
+        <section class="why">
+            <div class="left"><img id="why-img1" src="./images/why-img1.png" alt="">
+
+                <h4>With HBOT</h4>
+            </div>
+            <div class="center"><img id="why-img2" src="./images/why-img2.jpg" alt="">
+                <h1>Why 2 ATA Matter</h1>
+            </div>
+            <div class="right"><img id="why-img3" src="./images/why-img3.png" alt="">
+
+                <h4>Without HBOT</h4>
+            </div>
+
+            <div class="why-card left-card">
+                <p>ATA stands for "atmospheres absolute," a pressure unit used in hyperbaric chambers. <br> <br> HBOT
+                    below 2 ATA is ineffective as it doesn't significantly increase oxygen levels to produce substantial
+                    therapeutic benefits.</p>
+            </div>
+            <div class="why-card right-card">
+                <p>When breathing 100% oxygen at 2 ATA and above, physics and physiology merge as the oxygen dissolves
+                    in the blood, resulting in desired therapeutic effects— a phenomenon known as Hyperbaric Oxygen
+                    Therapy (HBOT).</p>
+            </div>
+        </section>
+
+
+
+
+</body>
+
+</html>
