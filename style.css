@@ -241,33 +241,23 @@ body {
 
 }
 
-.hero-center-img {
-    /* display: block; */
-    /* position: absolute;
-    top: 38px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 980px;
-    width: 1300px; */
-    /* position: absolute; */
-    /* top: 38px; */
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
+.hero-img {
+    /* width: 706.3657836914062px; */
     margin-top: 14px;
-    height: 980px;
-    width: 1300px;
-    background-color: green;
-    width: 606.3657836914062px;
-    height: 380px;
+    /* background-color: green; */
+    /* height: 380px; */
+}
+
+.hero-center-img {
+    /* height: 980px; */
+    /* width: 1300px; */
+    height: 100%;
+    object-fit: contain;
+    background: transparent;
 
     /* max-width: 100%; */
 }
 
-/* .hero-center-img{
-    
-    background: green;
-    border: 2px solid black;
-} */
 /* Right Rectangle */
 .hero-right {
     width: clamp(200px, 15vw, 250px);
@@ -1450,10 +1440,11 @@ body {
 
 
 /* customer section  */
-.customer span{
+.customer span {
     color: #1F252B;
     margin: 8px;
 }
+
 .customer {
     position: relative;
     display: flex;
