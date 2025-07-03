@@ -91,11 +91,11 @@
     }
 
     .hero-center {
-        height: 780px;
+        /* height: auto; */
         width: 100vw;
         margin: 0;
         border-radius: 15px;
-        padding: 20px;
+        padding: 90px 20px;
     }
 
     .hero-text-wrapper {
@@ -103,6 +103,7 @@
         transform: none;
         width: 100%;
         padding-top: 0;
+        margin: 0;
     }
 
     #center-button {
@@ -118,8 +119,9 @@
 
 /* About-section  */
     .about {
+        
         flex-direction: column;
-        padding: 20px;
+        padding: 90px 20px;
         align-items: center;
         width: 100%;
         /* text-align: center; */
@@ -187,7 +189,7 @@
 
     .product-container {
         flex-direction: column;
-        padding: 20px;
+        padding: 90px 20px;
 
     }
     .button-wrapper{
@@ -256,6 +258,24 @@
 
     .card-top {
         flex-direction: column;
+    }
+
+    /* customer-section  */
+
+    .customer-left ,.customer-right{
+        display: none;
+    }
+    .right-card , .left-card{
+        display: none;
+    }
+
+    .customer-center{
+        /* justify-content: center; */
+        width: 100vw;
+        margin: 0;
+        padding: 90px;
+        
+
     }
 
     
