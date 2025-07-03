@@ -283,7 +283,7 @@
         width: 100vw;
         margin: 0;
         padding: 90px 20px;
-        
+
 
 
     }
@@ -299,12 +299,12 @@
         line-height: 1.2;
     }
 
-    
+
     .customer-cards {
         position: static;
         flex-direction: column;
     }
-    
+
     .customer-card {
         position: static;
         /* Rectangle 18 */
@@ -317,12 +317,48 @@
         border-radius: 15px;
 
     }
-    
+
     .see-all-stories {
         position: static;
         margin-top: 20px;
         /* bottom: 20px; */
+
+    }
+
+    /* centers-section  */
+
+    .centers {
+        flex-direction: column;
+        /* padding: 90px 20px; */
+        gap: 30px;
+    }
+
+    .centers .left {
+        margin: 0;
+        padding: 90px 20px;
+    }
+
+    .centers .left h1 {
+        font-size: 34px;
+        font-weight: 800;
+        width: 90vw;
+        height: auto;
+    }
+    .centers .right{
+        width: 100%;
+        /* background-color: gray; */
+        height: 100%;
+        overflow: hidden;
         
+    }
+
+    .centers .right img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* object-view-box: content-box; */
+        /* object-fit: cover; */
+        /* object-position: right; */
     }
 
 }
