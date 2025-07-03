@@ -823,7 +823,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 948.6614379882812px;
+    height: 948.6614379882812px;
     /* Responsive height */
     display: flex;
     justify-content: flex-end;
@@ -913,13 +913,13 @@ body {
     /* margin: auto; */
 }
 
-/* SYSTEM CARD  GRID  */
-.grid-container {
-    display: grid;
-    /* grid-template-columns: repeat(auto, minmax(280px, 1fr)); */
-    grid-template-columns: repeat(3, 0.2fr);
-    grid-template-rows: repeat(2, 1fr);
+/* SYSTEM CARD FLEX (previously GRID) */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
     gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
     /* width: 100%; */
 }
 

@@ -216,7 +216,11 @@
     .bg {
         padding: 40px 20px;
         justify-content: center;
-        text-align: center;
+        /* align-items: center; */
+        /* text-align: center; */
+        height: 300px;
+        width: 100%;
+        background-size:cover;
     }
 
     .bg h1 {
@@ -224,19 +228,37 @@
         text-align: center;
     }
 
+    /* system-section  */
     .system {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        justify-content: center;
+        padding: 20px;
+        /* background-position:center; */
+    }
+    .system .left p{
+        text-align: center;
+    }
+    .card-container{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .system-card{
+        flex-grow: 1;
+        height: auto;
+    }
+    .system-card p{
+        font-size: 14px;
     }
 
     .card-top {
-        align-items: flex-start;
+        flex-direction: column;
     }
 
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
+    
 }
 
 @media (max-width: 480px) {
