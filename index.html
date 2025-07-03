@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
 </head>
 
 <body>
@@ -29,8 +30,8 @@
 
 
             <div class="nav-right">
-                <a href="#" class="view-demo">View Demo</a>
-                <button class="get-started">Get Started</button>
+                <a href="#" id="view-demo-nav">View Demo</a>
+                <button id="get-started-nav">Get Started</button>
                 <button class="font-toggle">AA ▼</button>
                 <button class="menu-toggle" onclick="toggleMenu()">☰</button>
             </div>
@@ -63,8 +64,8 @@
                     <h5>that reaches working pressure of 3 atmosphere</h5>
                     <div></div>
                     <div id="center-button">
-                        <button id="get-started-center">Get Started</button>
-                        <button id="view-demo">View Demo</button>
+                        <button class="get-started">Get Started</button>
+                        <button class="view-demo">View Demo</button>
                     </div>
                 </div>
                 <!-- <div class="hero-center-img">this is img</div> -->
@@ -127,8 +128,8 @@
                     undergo
                     therapy with maximum comfort, wherever they may be.
                 </p>
-                <button class="explore" id="about-explore">Explore More<img src="./images/enter-svg.svg"
-                        alt="enter"></button>
+                <button class="explore-more-btn">Explore More <img src="./images/enter-svg.svg" alt=""></button>
+
 
             </div>
             <div class="about-right">
@@ -148,14 +149,15 @@
                     <h3>INJURY & PERFORMANCE</h3>
                     <p>Hyperbaric Oxygen Therapy for sports injuries. Helping your clients with recovery, repair and
                         strengthening.</p>
-                    <button class="smart-fast-explore">Explore More <img src="./images/enter-svg.svg"
-                            alt="enter"></button>
+                    <button class="explore-more-btn">Explore More <img src="./images/enter-svg.svg" alt="enter"></button>
+
                 </div>
                 <div class="cards">
                     <img src="./images/yoga2.svg" alt="Health & Wellbeing Yoga">
                     <h3>HEALTH & WELLBEING</h3>
                     <p>Allowing your clients to breathe new life <br>into their bodies, repairing unseen <br>damage.</p>
-                    <button class="smart-fast-explore">Explore More </button>
+                    <button class="explore-more-btn">Explore More <img src="./images/enter-svg.svg" alt=""></button>
+
 
                 </div>
                 <div class="cards">
@@ -163,11 +165,13 @@
                     <h3>AGEING & BEAUTY</h3>
                     <p>Improving your client's skin elasticity and condition - repairing damaged skin (acne, eczema,
                         psoriasis, rosacea and wrinkles).</p>
-                    <button class="smart-fast-explore">Explore More <img src="./images/enter-svg.svg"
-                            alt="enter"></button>
+                        
+                        <button class="explore-more-btn">Explore More <img src="./images/enter-svg.svg" alt=""></button>
                 </div>
             </div>
         </section>
+
+        <!-- <button class="explore-more">Explore More <img src="./images/enter-svg.svg" alt=""></button> -->
 
         <!-- PRODUCT SECTION  -->
 
@@ -182,8 +186,8 @@
                         reaches working pressure of 3 ATA
                     </p>
                     <div class="button-wrapper">
-                        <button class="primary-btn">Get Started</button>
-                        <button class="secondary-btn">View Demo</button>
+                        <button class="get-started product-btn-get">Get Started <img src="./images/enter-svg.svg" alt=""></button>
+                        <button class="view-demo product-btn-view">View Demo <img src="./images/enter-black.svg" alt=""></button>
                     </div>
                 </div>
 
@@ -360,47 +364,47 @@
             <div class="customer-right"></div>
 
             <div class="customer-cards">
-            <div class="customer-card left-card">
-                <div class="card-header">
-                    <div class="user-info">
-                        <h4>Aaron Johnson</h4>
-                        <div class="stars">★★★★★</div>
+                <div class="customer-card left-card">
+                    <div class="card-header">
+                        <div class="user-info">
+                            <h4>Aaron Johnson</h4>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                        <div class="user-image">
+                            <img src="/images/customer-card-img.png" alt="User photo" />
+                        </div>
                     </div>
-                    <div class="user-image">
-                        <img src="/images/customer-card-img.png" alt="User photo" />
-                    </div>
+                    <p class="review">
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using 'Content here, content here', making it look like
+                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                        their
+                        infancy.
+                    </p>
                 </div>
-                <p class="review">
-                    It is a long established fact that a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
-                    their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
-                    their
-                    infancy.
-                </p>
-            </div>
 
-            <div class="customer-card right-card">
-                <div class="card-header">
-                    <div class="user-info">
-                        <h4>Aaron Johnson</h4>
-                        <div class="stars">★★★★★</div>
+                <div class="customer-card right-card">
+                    <div class="card-header">
+                        <div class="user-info">
+                            <h4>Aaron Johnson</h4>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                        <div class="user-image">
+                            <img src="/images/customer-card-img.png" alt="User photo" />
+                        </div>
                     </div>
-                    <div class="user-image">
-                        <img src="/images/customer-card-img.png" alt="User photo" />
-                    </div>
+                    <p class="review">
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using 'Content here, content here', making it look like
+                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                        their
+                        infancy.
+                    </p>
                 </div>
-                <p class="review">
-                    It is a long established fact that a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
-                    their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
-                    their
-                    infancy.
-                </p>
-            </div>
             </div>
         </section>
 
