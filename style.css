@@ -691,10 +691,9 @@ body {
 
 }
 
-.product-content h1 {
-    font-size: 48px;
-    margin: 10px 0;
-}
+/* .product-content h1 {
+    font-size: 58px;
+} */
 
 .gradient-text {
     width: 332px;
@@ -704,14 +703,11 @@ body {
     font-weight: 700;
     font-size: 58px;
     line-height: 58px;
-    leading-trim: both;
-    text-edge: cap;
     text-transform: uppercase;
     background: linear-gradient(95.82deg, #425292 20.38%, #FD8A45 50%, #DD4C8A 100%);
     /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
 }
 
 .product-content p {
@@ -723,8 +719,8 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #505050;
-    /* margin-top: 20px; */
-    margin: 30px 0;
+    margin-top: 25px;
+    margin-bottom: 30px ;
 }
 
 .button-wrapper {
@@ -794,7 +790,7 @@ body {
     /* text-align: center; */
     padding: 0 20px 20px 20px;
     position: relative;
-    border-left: 1px solid black;
+    border-left: 1px solid #1f252b66;
     /* border:3px solid; */
 }
 

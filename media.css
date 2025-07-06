@@ -210,12 +210,16 @@
     }
 
     .features-grid {
-        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
     }
 
     .feature-box {
-        border-right: none !important;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        /* border-right: none !important; */
+        /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+        border-left: none;
+        align-items: center;
+        padding: 20px;
+        
     }
 
     /* bg-section  */
