@@ -1397,7 +1397,7 @@ body {
 
 .media-section {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin-top: 10px;
 
 }
@@ -1620,4 +1620,129 @@ body {
 
 .read-more:hover {
     background: #DD4C8A;
+}
+
+
+/* CONTACT-SECTION  */
+.contacts {
+    width: 100%;
+    
+    min-height: 610px;
+    background: #181B34;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: flex;
+    /* padding: 50px 100px; */
+}
+
+.contacts .left {
+    /* height: 200px; */
+    width: 40%;
+    margin: 80px 100px 0 100px;
+}
+
+.contacts .left h4 {
+    color: #DD4C8A;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contacts .left h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 58px;
+    background: linear-gradient(97.56deg, #FFFFFF 16.6%, #FD8A45 40.72%, #DD4C8A 81.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contacts .left p {
+    width: 357px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.contacts .left img {
+    width: 213px;
+    height: 240.22px;
+    margin-left: 224px;
+    margin-top: px;
+}
+
+.contacts .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    /* position: absolute; */
+    width: 600px;
+    height: 462px;
+    margin: 80px 100px;
+}
+
+.contacts form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-input {
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    background: white;
+    font-size: 16px;
+}
+
+.form-input::placeholder {
+    color: #666;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.input-row {
+    display: flex;
+    gap: 20px;
+}
+
+.half-width {
+    width: calc(50% - 10px);
+}
+
+.message-area {
+    height: 150px;
+    resize: none;
+}
+
+.contacts .see-all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 19px 34px;
+    gap: 10px;
+    color: white;
+    width: 185.51px;
+    height: 48px;
+    font-size: 14px;
+    background: linear-gradient(93.82deg, #B037EA 0%, #FD8A45 50.12%, #DD4C8A 100.25%);
+    border-radius: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.contacts .see-all:hover {
+    opacity: 0.9;
 }
