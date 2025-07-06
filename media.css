@@ -546,6 +546,17 @@
     .contacts .see-all{
         align-self: center;
     }
+
+    /* footer-section */
+    .footer-wrapper::before{
+    display: none;
+}
+.footer-item{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    /* justify-content: center; */
+    padding: 40px;
+}
+
 }
 
 /* @media (max-width: 768px) { */
