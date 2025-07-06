@@ -1424,7 +1424,7 @@ body {
 .media-bg .center {
     /* width: 920px; */
     height: 100%;
-    padding: 20px;
+    /* padding: 20px; */
     flex: 1;
     margin-right: 10px;
     margin-left: 10px;
@@ -1435,10 +1435,11 @@ body {
     background: #F7F7F7;
     border-radius: 15px;
     position: relative;
+    padding: 80px 0;
 }
 
 .media-bg .text-center {
-    margin: 80px 181px;
+    /* margin: 80px 181px; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -1467,14 +1468,12 @@ body {
     font-weight: 700;
     font-size: 58px;
     line-height: 58px;
-    leading-trim: both;
-    text-edge: cap;
     text-align: center;
     background: linear-gradient(95.82deg, #425292 20.38%, #FD8A45 50%, #DD4C8A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+
 }
 
 .media-bg .right {
@@ -1490,7 +1489,7 @@ body {
     display: flex;
     gap: 40px;
     padding: 0 100px;
-    top: 244px;
+    top: 224px;
     /* left: 40px; */
 }
 
@@ -1595,6 +1594,7 @@ body {
 }
 
 .read-more {
+    /* margin-top: 40px; */
     display: flex;
     align-items: center;
     padding: 19px 34px;
