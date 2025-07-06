@@ -1544,7 +1544,7 @@ body {
 
 .right-media-card .card-content {
     flex: 1;
-    padding:20px;
+    padding: 20px;
     /* text-align: left; */
 }
 
@@ -1624,21 +1624,29 @@ body {
 
 
 /* CONTACT-SECTION  */
+.contacts span{
+    font-size: 16px;
+    color: white;
+    margin-right:8px ;
+}
 .contacts {
     width: 100%;
-    
+    /* position: relative; */
     min-height: 610px;
     background: #181B34;
     border-radius: 15px;
     margin-top: 10px;
     display: flex;
-    /* padding: 50px 100px; */
+    gap: 230px;
+    padding: 80px 100px 0 100px;
 }
 
 .contacts .left {
-    /* height: 200px; */
-    width: 40%;
-    margin: 80px 100px 0 100px;
+    /* width: 40%; */
+    /* margin: 80px 100px 0 100px; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .contacts .left h4 {
@@ -1673,8 +1681,11 @@ body {
 .contacts .left img {
     width: 213px;
     height: 240.22px;
-    margin-left: 224px;
-    margin-top: px;
+    /* margin-left: 224px; */
+    position: absolute;
+    bottom: -18px;
+    left: 230px;
+
 }
 
 .contacts .right {
@@ -1686,7 +1697,7 @@ body {
     /* position: absolute; */
     width: 600px;
     height: 462px;
-    margin: 80px 100px;
+    /* margin: 80px 100px; */
 }
 
 .contacts form {
@@ -1704,9 +1715,9 @@ body {
     font-size: 16px;
 }
 
-.form-input::placeholder {
+/* .form-input::placeholder {
     color: #666;
-}
+} */
 
 .full-width {
     width: 100%;
@@ -1719,6 +1730,17 @@ body {
 
 .half-width {
     width: calc(50% - 10px);
+}
+
+.form-input::placeholder {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1F252B;
+
+
 }
 
 .message-area {
@@ -1741,6 +1763,7 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
+    border: none;
 }
 
 .contacts .see-all:hover {
