@@ -278,7 +278,19 @@
     .card-top {
         flex-direction: column;
     }
+     /* why-section  */
 
+    .why .left,
+    .why .right {
+        display: none;
+    }
+
+    /* .why-card{
+        position: static;
+    } */
+
+
+    
     /* customer-section  */
 
     .customer-left,

@@ -64,8 +64,9 @@ body {
     color: #505050;
     transition: all 0.3s ease;
 }
-.nav-links a:hover{
-    color:#1F252B
+
+.nav-links a:hover {
+    color: #1F252B
 }
 
 .nav-right {
@@ -822,7 +823,7 @@ body {
 
 /* Mobile Responsive */
 
-/* BG SECTION  */
+/* bg-section  */
 .bg {
     background-image: url(./images/bg-img.png);
     background-size: cover;
@@ -977,44 +978,50 @@ body {
 
 /* WHY SECTION  */
 .why {
-    width: 100%;
-    height: 517px;
-    margin-top: 10px;
-    position: relative;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #af0f0f;
-    /* padding: 40px; */
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 517px;
+    position: relative;
+}
+
+.why-img {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    /* border-radius: 8px; */
+}
+.why-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 
 #why-img1 {
-    position: relative;
-    left: 0px;
-    width: 250px;
-    height: 517px;
-    object-fit: cover;
     object-position: center;
     border-radius: 0px 15px 15px 0px;
 }
 
 #why-img2 {
-    position: relative;
-    width: 960px;
-    height: 517px;
-    left: calc(48.7% - 920px/2);
     border-radius: 10px;
+}
+.why .left,
+.why .right {
+    flex: 0 0 20%;
+}
+
+.why .center {
+    flex: 1;
 }
 
 #why-img3 {
-    position: relative;
-    width: 250px;
-    height: 517px;
-    object-fit: cover;
-    /* object-position: center; */
+    object-position:center;
     border-radius: 15px 0px 0px 15px;
 }
-
+.why .center{
+    position: relative;
+}
 .why h1 {
     position: absolute;
     width: 411px;
@@ -1065,26 +1072,26 @@ body {
     line-height: 20px;
     color: #505050;
 }
-
+.why .left{
+    position: relative;
+}
 .why .left h4 {
     position: absolute;
-    width: 75px;
-    height: 10px;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
     font-size: 14px;
+    
+    bottom: 23px;
+    right:20px;
     color: white;
     text-shadow: 1px 1px 3px #000;
 }
-
+.why .right{
+    position: relative;
+}
 .why .right h4 {
     position: absolute;
-    width: 75px;
-    height: 10px;
-    top: 200px;
-    left: 50%;
-    transform: translateX(-50%);
+
+    bottom: 23px;
+    left: 20px;
     font-size: 14px;
     color: white;
     text-shadow: 1px 1px 3px #000;
