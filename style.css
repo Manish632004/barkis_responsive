@@ -55,9 +55,17 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #222;
-    font-size: 14px;
     font-weight: 500;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #505050;
+    transition: all 0.3s ease;
+}
+.nav-links a:hover{
+    color:#1F252B
 }
 
 .nav-right {
@@ -95,6 +103,7 @@ body {
 
 .menu-toggle {
     display: none;
+    color: #181B34;
     background: none;
     border: none;
     font-size: 1.5rem;
@@ -720,7 +729,7 @@ body {
     line-height: 24px;
     color: #505050;
     margin-top: 25px;
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
 }
 
 .button-wrapper {
@@ -1111,7 +1120,6 @@ body {
 .notable ul li {
     font-weight: 500;
     font-size: 14px;
-    leading-trim: Cap height;
     line-height: 100%;
     letter-spacing: 0%;
 }
@@ -1798,8 +1806,8 @@ body {
     /* box-sizing: border-box; */
     display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content:flex-start;
+    align-items: center;
+    justify-content: flex-start;
     gap: 6px;
     border-right: 1px solid rgba(0, 0, 0, 0.08);
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.08); */
@@ -1876,7 +1884,7 @@ body {
     /* padding-top: 15px; */
     font-size: 14px;
     color: #505050;
-    font-weight:500;
+    font-weight: 500;
     /* border-top: 1px solid #ccc; */
     text-align: center;
 }
@@ -1914,12 +1922,13 @@ body {
 }
 
 .footer-wrapper::before {
-    top:40%;
+    top: 40%;
 }
 
 .footer-wrapper::after {
     bottom: 0;
 }
+
 /* .footer-wrapper::before,
 .footer-wrapper::after {
     content: '';

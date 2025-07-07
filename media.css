@@ -219,7 +219,7 @@
         border-left: none;
         align-items: center;
         padding: 20px;
-        
+
     }
 
     /* bg-section  */
@@ -460,7 +460,8 @@
         object-fit: cover;
         border-radius: 0;
     }
-    .left-media-card  .card-content{
+
+    .left-media-card .card-content {
         padding: 20px;
 
     }
@@ -534,32 +535,38 @@
         padding: 90px 20px 0 20px;
         gap: 40px;
     }
-    .contacts form{
+
+    .contacts form {
         gap: 16px;
     }
-    .contacts .left img{
+
+    .contacts .left img {
         display: none;
 
     }
-    .contacts .left h1{
+
+    .contacts .left h1 {
         font-size: 48px;
     }
-    .contacts .right{
+
+    .contacts .right {
         width: 90%;
     }
-    .contacts .see-all{
+
+    .contacts .see-all {
         align-self: center;
     }
 
     /* footer-section */
-    .footer-wrapper::before{
-    display: none;
-}
-.footer-item{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    /* justify-content: center; */
-    padding: 40px;
-}
+    .footer-wrapper::before {
+        display: none;
+    }
+
+    .footer-item {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        /* justify-content: center; */
+        padding: 40px;
+    }
 
 }
 
@@ -574,5 +581,39 @@
         height: auto;
         font-size: 42px;
         line-height: 1.2;
+    }
+} */
+
+/* menu-toggle  */
+/* Hide by default */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    /* adjust if navbar height is different */
+    right: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 99;
+}
+
+/* Show when active */
+.mobile-menu.active {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hide for large screens */
+/* @media (min-width: 768px) {
+    .mobile-menu {
+        display: none !important;
     }
 } */
