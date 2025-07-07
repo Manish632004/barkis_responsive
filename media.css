@@ -32,7 +32,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:780px) {
     .navbar {
         padding: 0 20px;
         height: 50px;
@@ -72,7 +72,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 780px) {
 
     /* hero-section  */
     .hero-section {
@@ -305,10 +305,6 @@
         display: none;
     }
 
-    /* .right-card , .left-card{
-        display: none;
-    } */
-
     .customer-center {
         /* justify-content: center; */
         width: 100vw;
@@ -318,14 +314,6 @@
 
 
     }
-
-    /* .customer span{
-        margin: 4px;
-        font-size: 12px;
-    }
-    .customer-center h4 {
-        font-size: 12px;
-    } */
 
     .customer-center-text {
         margin: 0 20px;
@@ -359,6 +347,7 @@
     }
 
     .see-all-stories {
+        /* align-content: center; */
         position: static;
         margin-top: 20px;
         /* bottom: 20px; */
@@ -368,8 +357,8 @@
     /* centers-section  */
 
     .centers {
+        /* height: max-content; */
         flex-direction: column;
-        /* padding: 90px 20px; */
         gap: 30px;
         overflow: hidden;
     }
@@ -378,15 +367,6 @@
         margin: 0;
         padding: 90px 20px;
     }
-
-    /* .centers span{
-        color: #1F252B;
-        margin: 4px;
-        font-size: 12px;
-    }
-    .centers .left h4 {
-        font-size: 12px;
-    } */
 
     .centers .left h1 {
         font-size: 38px;
@@ -404,8 +384,8 @@
     }
 
     .centers .right img {
-        width: 100%;
-        height: 100%;
+        width: 50%;
+        height: 50%;
         object-fit: cover;
         /* object-view-box: content-box; */
         /* object-fit: cover; */
@@ -524,29 +504,7 @@
     .read-more {
         margin-top: 30px;
     }
-
-}
-
-/* for the  product -section  */
-@media (max-width: 480px) {
-    .features-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .feature-box {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    }
-
-    .bg h1 {
-        font-size: 26px;
-        line-height: 1.3;
-    }
-
-    .bg {
-        background-size: contain;
-        background-position: top center;
-    }
-
+    
     /* contact-section  */
     .contacts {
         flex-direction: column;
@@ -586,6 +544,29 @@
         /* justify-content: center; */
         padding: 40px;
     }
+
+}
+
+/* for the  product -section  */
+@media (max-width: 480px) {
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-box {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .bg h1 {
+        font-size: 26px;
+        line-height: 1.3;
+    }
+
+    .bg {
+        background-size: contain;
+        background-position: top center;
+    }
+
 
 }
 
