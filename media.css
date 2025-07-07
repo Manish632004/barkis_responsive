@@ -280,10 +280,13 @@
     }
      /* why-section  */
 
-    .why .left,
-    .why .right {
+    .why{
         display: none;
     }
+    /* .why .left,
+    .why .right {
+        display: none;
+    } */
 
     /* .why-card{
         position: static;

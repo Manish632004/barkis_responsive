@@ -146,10 +146,12 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: white;
+    position: relative;
 }
 
 /* Left Rectangle */
 .hero-left {
+    position: relative;
     width: clamp(200px, 15vw, 250px);
     min-height: 780px;
     background-color: #F7F7F7;
@@ -191,6 +193,7 @@ body {
 
 /* Right Rectangle */
 .hero-right {
+    position: relative;
     width: clamp(200px, 15vw, 250px);
     min-height: 780px;
     background-color: #F7F7F7;
@@ -308,8 +311,8 @@ body {
     position: absolute;
     width: 160px;
     height: 160px;
-    top: 566px;
-    right: 170px;
+    top: 488px;
+    right: 160px;
     border-radius: 225px;
 }
 
@@ -317,25 +320,25 @@ body {
     position: absolute;
     width: 250;
     height: 170;
-    top: 556px;
-    left: 178px;
+    top: 470px;
+    left: 150px;
     border-radius: 10px;
 }
 
 .logo-left {
     position: absolute;
-    width: 90;
-    height: 90;
-    top: 758px;
-    left: 150px;
+    width: 90px;
+    height: 90px;
+    bottom: 10px;
+    right: 10px;
 }
 
 .logo-right {
     position: absolute;
     width: 143.31753540039062;
     height: 40;
-    top: 798px;
-    right: 86px;
+    bottom: 20px;
+    left: 20px;
 }
 
 
