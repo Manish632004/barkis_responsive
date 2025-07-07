@@ -1371,7 +1371,6 @@ body {
 
 .centers {
     display: flex;
-    justify-content: space-between;
     /* align-items: center; */
     width: 100%;
     /* height: 610px; */
@@ -1433,7 +1432,7 @@ body {
 
 .centers .right {
     min-width: 835px;
-    min-height: 610px;
+    max-height: 610px;
 }
 
 .centers .right img {
