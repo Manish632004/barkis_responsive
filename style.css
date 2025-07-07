@@ -167,7 +167,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     /* width: 250px; */
-    min-height: 780px;
+    /* max-height: 780px; */
     /* padding: 80px 175px 0 175px; */
     flex: 1;
     margin-right: min(10px, 1vw);

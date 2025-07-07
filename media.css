@@ -96,7 +96,7 @@
         width: 100vw;
         margin: 0;
         border-radius: 15px;
-        padding: 90px 20px;
+        padding: 90px 20px 0 20px;
     }
 
     .hero-text-wrapper {
@@ -117,7 +117,11 @@
         width: 100%;
         max-width: 300px;
     }
+    .hero-center-img {
+        height: 90%;
+        width: 90%;
 
+    }
     /* About-section  */
     .about {
 
