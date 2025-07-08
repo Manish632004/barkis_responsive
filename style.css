@@ -18,6 +18,7 @@ section {
 html,
 body {
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -598,7 +599,7 @@ body {
 
 .smart-fast .cards {
     width: 390px;
-    height: 355px;
+    min-height: 355px;
     text-align: center;
     border-radius: 10px;
     background: white;
@@ -607,19 +608,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px;
 }
 
 .smart-fast .cards-img {
     width: 60px;
     height: 69px;
-    margin: 40px 171px 30px 171px;
+    /* margin: 40px 171px 30px 171px; */
 }
 
 .smart-fast .cards h3 {
-    margin-bottom: 10px;
+    margin-top: 25px;
     font-style: normal;
     /* font-weight: 900; */
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 18px;
     text-transform: uppercase;
     color: #1F252B;
@@ -627,27 +629,23 @@ body {
 }
 
 .smart-fast .cards p {
+    margin-top: 15px;
     font-size: 14px;
-    margin-left: 40px;
-    margin-right: 40px;
-    /* Hyperbaric Oxygen Therapy for sports injuries. Helping your clients with recovery, repair and strengthening. */
-    width: 310px;
-    height: 50px;
+    /* width: 310px; */
+    /* height: 50px; */
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
     color: #505050;
-    margin-bottom: 30px;
 
 
 }
 
 .explore-more-btn {
+    margin-top: 30px;
     display: flex;
-    /* flex-direction: row; */
-    /* justify-content: center; */
     align-items: center;
     padding: 0 34px;
     gap: 10px;
@@ -722,7 +720,6 @@ body {
     text-transform: uppercase;
     color: #DD4C8A;
     margin-bottom: 25px;
-
 }
 
 /* .product-content h1 {
@@ -745,7 +742,7 @@ body {
 }
 
 .product-content p {
-    width: 346px;
+    max-width: 346px;
     height: 60px;
     font-family: 'Public Sans';
     font-style: normal;
@@ -857,7 +854,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    max-height: 948.6614379882812px;
+    height: 948.6614379882812px;
     /* min-height:100vh; */
     /* Responsive height */
     display: flex;
@@ -1837,7 +1834,7 @@ body {
     border-radius: 15px 15px 0px 0px;
     margin-top: 10px;
     /* padding: 60px 100px 20px; */
-    padding: 40px 20px;
+    padding: 40px 20px 20px 20px;
 }
 
 .footer-wrapper {
@@ -1932,13 +1929,11 @@ body {
 }
 
 .footer-bottom {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    /* padding-top: 15px; */
+    margin: auto;
+    /* margin-bottom: 10px; */
     font-size: 14px;
     color: #505050;
     font-weight: 500;
-    /* border-top: 1px solid #ccc; */
     text-align: center;
 }
 
