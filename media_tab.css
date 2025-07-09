@@ -1,0 +1,64 @@
+@media screen and (max-width:767px) {
+
+    /* hero-section */
+    .hero-left,
+    .hero-right,
+    .cirlcle-img,
+    .collab-img,
+    .logo-left,
+    .logo-right {
+        display: none;
+    }
+
+    .hero-center {
+        width: 100vw;
+        margin: 0;
+        border-radius: 15px;
+        padding: 60px 20px 0 20px;
+        height: min-content;
+    }
+
+    .hero-center-img {
+        margin-top: 10px;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    /* about-section */
+    .about {
+
+        flex-direction: column;
+        padding: 90px 20px 0 20px;
+        align-items: center;
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    .about-left {
+        padding: 20px;
+        margin: 0;
+        width: 100%;
+    }
+    .about h1,
+    .about p {
+        width: 100%;
+    }
+
+    .about-right {
+        width: 100%;
+        padding: 0;
+        margin-top: 30px;
+        /* text-align: center; */
+    }
+
+    .about-right img {
+        /* height: 130%; */
+        /* width: 100%; */
+        width: 120%;
+        height: 190%;
+        height: auto;
+    }
+
+
+}
