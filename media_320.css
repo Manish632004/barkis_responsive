@@ -1,0 +1,12 @@
+@media only screen and (max-width: 320px) {
+
+    /* product-section  */
+    .gradient-text{
+        font-size: 48px;
+    }
+
+    .feature-box p{
+        text-align: center;
+    }
+
+}
