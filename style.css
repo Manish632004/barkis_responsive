@@ -720,7 +720,7 @@ body {
     line-height: 16px;
     text-transform: uppercase;
     color: #DD4C8A;
-    margin-bottom: 25px;
+    
 
 }
 
@@ -728,7 +728,8 @@ body {
     font-size: 58px;
 } */
 
-.gradient-text {
+.product-content .gradient-text {
+    margin-top: 25px;
     width: 332px;
     height: 52px;
     font-family: 'Public Sans';
@@ -744,8 +745,7 @@ body {
 }
 
 .product-content p {
-    width: 346px;
-    height: 60px;
+    width: 70%;
     font-family: 'Public Sans';
     font-style: normal;
     font-weight: 600;
@@ -959,7 +959,7 @@ body {
 }
 
 .system-card {
-    width: 250px;
+    max-width:250px;
     height: 138px;
     padding: 15px;
     background: linear-gradient(95.82deg, rgba(66, 82, 146, 0.08) 20.38%, rgba(253, 138, 69, 0.08) 50%, rgba(221, 76, 138, 0.08) 100%);
@@ -1514,8 +1514,8 @@ body {
 }
 
 .media-bg .center h1 {
-    width: 558px;
-    height: 65px;
+    /* width: 558px;
+    height: 65px; */
     margin-top: 30px;
     font-style: normal;
     font-weight: 700;
@@ -1726,7 +1726,8 @@ body {
 }
 
 .contacts .left p {
-    width: 357px;
+    /* width: 357px; */
+    width: 90%;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
