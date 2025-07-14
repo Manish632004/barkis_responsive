@@ -720,7 +720,7 @@ body {
     line-height: 16px;
     text-transform: uppercase;
     color: #DD4C8A;
-    
+
 
 }
 
@@ -837,9 +837,11 @@ body {
     margin-bottom: 20px;
     transition: all 0.3s ease-in-out;
 }
-.feature-box img:hover{
+
+.feature-box img:hover {
     transform: scale(1.1);
 }
+
 .feature-box p {
     font-size: 14px;
     font-weight: 600;
@@ -856,7 +858,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    max-height: 948.6614379882812px;
+    height: 948.66px;
     /* min-height:100vh; */
     /* Responsive height */
     display: flex;
@@ -864,6 +866,9 @@ body {
     /* Align h1 to the right */
     padding: 80px 100px;
     position: relative;
+    border-radius: 15px;
+
+
 }
 
 .bg h1 {
@@ -876,7 +881,7 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-    max-width: 700px;
+    /* max-width: 700px; */
 }
 
 /* Responsive Text & Padding */
@@ -959,7 +964,7 @@ body {
 }
 
 .system-card {
-    max-width:250px;
+    max-width: 250px;
     height: 138px;
     padding: 15px;
     background: linear-gradient(95.82deg, rgba(66, 82, 146, 0.08) 20.38%, rgba(253, 138, 69, 0.08) 50%, rgba(221, 76, 138, 0.08) 100%);
