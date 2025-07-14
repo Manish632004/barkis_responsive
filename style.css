@@ -1879,8 +1879,12 @@ body {
 .footer-logo img {
     width: 146px;
     height: 70px;
+    transition: all 0.3s ease;
     /* background-color: green; */
 
+}
+.footer-logo img:hover{
+    transform: scale(1.05);
 }
 
 .footer-item img.icon {
@@ -1921,6 +1925,10 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
+    transition: all 0.3s ease;
+}
+.tagline:hover{
+    transform: scale(1.05);
 }
 
 .label {
